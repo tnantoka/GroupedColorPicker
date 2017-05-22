@@ -13,7 +13,7 @@ open class GroupedColorPickerViewController: UIViewController {
     fileprivate let reuseIdentifier = "Cell"
 
     open var didClose: (() -> Void)?
-    open var didSelect: (UIColor) -> Void = { _ in }
+    open var didSelect: (UIColor, String) -> Void = { _ in }
 
     open var groups = GroupedColorPicker.materialDesignGroups
     open var group: ColorGroup! {
@@ -171,6 +171,6 @@ extension GroupedColorPickerViewController: UITableViewDataSource, UITableViewDe
         guard let cell = tableView.cellForRow(at: indexPath) else { return }
         let item = group.items[indexPath.row]
         focus(contentView: cell.contentView, backgroundColor: item.textColor)
-        didSelect(item.color)
+        didSelect(item.color, item.hexString)
     }
 }

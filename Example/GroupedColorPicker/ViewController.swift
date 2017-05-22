@@ -39,8 +39,9 @@ class ViewController: UIViewController {
 
     func modal(sender: Any?) {
         let pickerController = GroupedColorPickerViewController()
-        pickerController.didSelect = { [weak self] color in
+        pickerController.didSelect = { [weak self] color, hexString in
             self?.view.backgroundColor = color
+            self?.title = hexString
             self?.dismiss(animated: true, completion: nil)
         }
         pickerController.didClose = { [weak self] in
@@ -52,8 +53,9 @@ class ViewController: UIViewController {
 
     func push(sender: Any?) {
         let pickerController = GroupedColorPickerViewController()
-        pickerController.didSelect = { [weak self] color in
+        pickerController.didSelect = { [weak self] color, hexString in
             self?.view.backgroundColor = color
+            self?.title = hexString
             self?.navigationController?.popToRootViewController(animated: true)
         }
         navigationController?.pushViewController(pickerController, animated: true)

@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'GroupedColorPicker'
-  s.version          = '0.1.0'
+  s.version          = '0.2.0'
   s.summary          = 'Color Picker with Material Design palette.'
 
   s.description      = <<-DESC

@@ -17,8 +17,9 @@ pod 'GroupedColorPicker'
 
 ```swift
 let pickerController = GroupedColorPickerViewController()
-pickerController.didSelect = { [weak self] color in
+pickerController.didSelect = { [weak self] color, hexString in
     self?.view.backgroundColor = color
+    self?.title = hexString
     self?.dismiss(animated: true, completion: nil)
 }
 pickerController.didClose = { [weak self] in

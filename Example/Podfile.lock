@@ -1,0 +1,19 @@
+PODS:
+  - GroupedColorPicker (0.1.0)
+  - SwiftLint (0.18.1)
+
+DEPENDENCIES:
+  - GroupedColorPicker (from `../`)
+  - SwiftLint
+
+EXTERNAL SOURCES:
+  GroupedColorPicker:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  GroupedColorPicker: 0a1e123633bfa4a491e6b7da9abdd146ddd939d7
+  SwiftLint: b467d08f5b25dc3b3cfed243d8e1b74b91714c67
+
+PODFILE CHECKSUM: edf81ece0c0cc2503ceeabb45cc0e6b52464b668
+
+COCOAPODS: 1.2.1

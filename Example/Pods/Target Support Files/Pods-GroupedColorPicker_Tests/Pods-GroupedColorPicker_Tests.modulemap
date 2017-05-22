@@ -1,0 +1,6 @@
+framework module Pods_GroupedColorPicker_Tests {
+  umbrella header "Pods-GroupedColorPicker_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

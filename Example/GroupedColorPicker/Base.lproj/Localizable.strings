@@ -1,0 +1,10 @@
+/* 
+  Localizable.strings
+  GroupedColorPicker
+
+  Created by Tatsuya Tobioka on 2017/05/21.
+  Copyright © 2017 CocoaPods. All rights reserved.
+*/
+
+"Modal" = "Modal";
+"Push" = "Push";

@@ -8,7 +8,7 @@
 
 import Foundation
 
-class GroupedColorPicker {
+public class GroupedColorPicker {
     public static var materialDesignGroups: [ColorGroup] {
         return [
             ColorGroup(

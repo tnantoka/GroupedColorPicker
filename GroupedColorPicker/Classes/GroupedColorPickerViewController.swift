@@ -15,6 +15,11 @@ open class GroupedColorPickerViewController: UIViewController {
     open var didClose: (() -> Void)?
     open var didSelect: (UIColor, String) -> Void = { _ in }
 
+    open var selectedColor: UIColor?
+    open var selectedGroup: ColorGroup? {
+        return groups.first { $0.contains(color: selectedColor) }
+    }
+
     open var groups = GroupedColorPicker.materialDesignGroups
     open var group: ColorGroup! {
         didSet {
@@ -25,7 +30,7 @@ open class GroupedColorPickerViewController: UIViewController {
     lazy open var collectionView: UICollectionView = {
         let layout = UICollectionViewFlowLayout()
         let collectionView = UICollectionView(frame: .zero, collectionViewLayout: layout)
-        collectionView.register(UICollectionViewCell.self, forCellWithReuseIdentifier: self.reuseIdentifier)
+        collectionView.register(ColorGroupCell.self, forCellWithReuseIdentifier: self.reuseIdentifier)
         collectionView.dataSource = self
         collectionView.delegate = self
         self.view.addSubview(collectionView)
@@ -66,7 +71,7 @@ open class GroupedColorPickerViewController: UIViewController {
         let tableView = UITableView(frame: .zero, style: .plain)
         self.view.addSubview(tableView)
 
-        tableView.register(UITableViewCell.self, forCellReuseIdentifier: self.reuseIdentifier)
+        tableView.register(ColorItemCell.self, forCellReuseIdentifier: self.reuseIdentifier)
         tableView.dataSource = self
         tableView.delegate = self
         tableView.separatorColor = .clear
@@ -103,7 +108,11 @@ open class GroupedColorPickerViewController: UIViewController {
         view.backgroundColor = UIColor(hexString: "#FAFAFA")
         automaticallyAdjustsScrollViewInsets = false
 
-        group = groups[0]
+        if let selectedGroup = selectedGroup {
+            group = selectedGroup
+        } else {
+            group = groups[0]
+        }
 
         _ = collectionView
     }
@@ -116,7 +125,7 @@ open class GroupedColorPickerViewController: UIViewController {
 
     // MARK: - Utilities
 
-    func focus(contentView: UIView, backgroundColor: UIColor) {
+    open func focus(contentView: UIView, backgroundColor: UIColor) {
         let overlayView = UIView(frame: contentView.bounds)
         overlayView.backgroundColor = backgroundColor
         contentView.addSubview(overlayView)
@@ -133,44 +142,67 @@ open class GroupedColorPickerViewController: UIViewController {
 }
 
 extension GroupedColorPickerViewController: UICollectionViewDataSource, UICollectionViewDelegate {
-    public func collectionView(_ collectionView: UICollectionView,
-                               cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+    open func collectionView(_ collectionView: UICollectionView,
+                             cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: reuseIdentifier, for: indexPath)
-        cell.backgroundColor = groups[indexPath.row].mainColor.color
+        configure(cell: cell as? ColorGroupCell, forItemAt: indexPath)
         return cell
     }
 
-    public func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+    open func configure(cell: ColorGroupCell?, forItemAt indexPath: IndexPath?) {
+        guard let cell = cell else { return }
+        guard let indexPath = indexPath else { return }
+        let group = groups[indexPath.row]
+        cell.group = group
+        cell.isBorderHidden = group.name != self.group.name
+    }
+
+    open func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return groups.count
     }
 
-    public func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+    open func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         guard let cell = collectionView.cellForItem(at: indexPath) else { return }
         focus(contentView: cell.contentView, backgroundColor: group.mainColor.textColor)
         group = groups[indexPath.row]
+        collectionView.visibleCells.forEach {
+            configure(cell: $0 as? ColorGroupCell, forItemAt: collectionView.indexPath(for: $0))
+        }
         tableView.reloadData()
     }
 }
 
 extension GroupedColorPickerViewController: UITableViewDataSource, UITableViewDelegate {
-    public func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+    open func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return group.items.count
     }
 
-    public func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+    open func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: reuseIdentifier, for: indexPath)
-        let item = group.items[indexPath.row]
-        cell.textLabel?.text = item.hexString
-        cell.textLabel?.textColor = item.textColor
-        cell.backgroundColor = item.color
         cell.selectionStyle = .none
+        configure(cell: cell as? ColorItemCell, forRowAt: indexPath)
         return cell
     }
 
-    public func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+    open func configure(cell: ColorItemCell?, forRowAt indexPath: IndexPath?) {
+        guard let cell = cell else { return }
+        guard let indexPath = indexPath else { return }
+        let item = group.items[indexPath.row]
+        cell.item = item
+        cell.isBorderHidden = true
+        if let selectedColor = selectedColor {
+            cell.isBorderHidden = item.color != selectedColor
+        }
+    }
+
+    open func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         guard let cell = tableView.cellForRow(at: indexPath) else { return }
         let item = group.items[indexPath.row]
         focus(contentView: cell.contentView, backgroundColor: item.textColor)
+        selectedColor = item.color
+        tableView.visibleCells.forEach {
+            configure(cell: $0 as? ColorItemCell, forRowAt: tableView.indexPath(for: $0))
+        }
         didSelect(item.color, item.hexString)
     }
 }

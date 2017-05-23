@@ -18,6 +18,8 @@
 		6E6C6E88410C812B9AC7364472210BE2 /* GroupedColorPicker.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F2457E26C67061673E6D05390009E4E5 /* GroupedColorPicker.bundle */; };
 		7E64FA7E0C0A11C9BCDABD8FE76749E5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		860D71D4492D2A1019C0B0E600D9F284 /* GroupedColorPicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EC68A39739BC50FEAAB86C9FC5F2F38C /* GroupedColorPicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B0766EC1ED3EC7D0021A89E /* ColorItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0766EB1ED3EC7D0021A89E /* ColorItemCell.swift */; };
+		9B0766EE1ED473D80021A89E /* ColorGroupCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0766ED1ED473D80021A89E /* ColorGroupCell.swift */; };
 		B3003D4ED69504D7592487FC25557E3E /* Pods-GroupedColorPicker_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A364F854699ABFF37FACC3C27819BDD6 /* Pods-GroupedColorPicker_Example-dummy.m */; };
 		C4C7AD7BEE1190ABE3C7E29D0FF74F1F /* ColorItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6DCF078A920DFE065BBE1FE6DE693BF /* ColorItem.swift */; };
 		CA23D0234094DC35469D20B47FC26201 /* UIColor+hexString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ECEFD8344FCDB75AE0142C4475E2B3F /* UIColor+hexString.swift */; };
@@ -48,7 +50,7 @@
 		0452F1AA2B3BEF78EA483E93B78C3587 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1918E7CF823E25735CA56D0EBD4A52A0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		40064F3AFA2C089F2967EDF1B4D45655 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		417957106551BA7C9AC87615FE7150D4 /* Pods_GroupedColorPicker_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GroupedColorPicker_Example.framework; path = "Pods-GroupedColorPicker_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		417957106551BA7C9AC87615FE7150D4 /* Pods_GroupedColorPicker_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GroupedColorPicker_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4486D20421A7E8F993E4046E14F97566 /* Pods-GroupedColorPicker_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GroupedColorPicker_Tests-dummy.m"; sourceTree = "<group>"; };
 		513D68AD2B03652935B172FDBFD4CFF5 /* Pods-GroupedColorPicker_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GroupedColorPicker_Example.release.xcconfig"; sourceTree = "<group>"; };
 		543DD6376468EB611991D8D07D79EF3F /* Pods-GroupedColorPicker_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GroupedColorPicker_Tests-frameworks.sh"; sourceTree = "<group>"; };
@@ -62,28 +64,30 @@
 		88291CFFBAEE5E0971A8085EEF506725 /* ResourceBundle-GroupedColorPicker-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-GroupedColorPicker-Info.plist"; sourceTree = "<group>"; };
 		8C848BDD1BF163B9A5A97C96F04A2625 /* Pods-GroupedColorPicker_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GroupedColorPicker_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		8ECEFD8344FCDB75AE0142C4475E2B3F /* UIColor+hexString.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIColor+hexString.swift"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9B0766EB1ED3EC7D0021A89E /* ColorItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorItemCell.swift; sourceTree = "<group>"; };
+		9B0766ED1ED473D80021A89E /* ColorGroupCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorGroupCell.swift; sourceTree = "<group>"; };
 		9E1379D153F14ED3C5C237AF5C7E3512 /* GroupedColorPicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GroupedColorPicker-prefix.pch"; sourceTree = "<group>"; };
-		9F26CACCE82E80FA0F7A59FD9459EC22 /* GroupedColorPicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GroupedColorPicker.framework; path = GroupedColorPicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F26CACCE82E80FA0F7A59FD9459EC22 /* GroupedColorPicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GroupedColorPicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A364F854699ABFF37FACC3C27819BDD6 /* Pods-GroupedColorPicker_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GroupedColorPicker_Example-dummy.m"; sourceTree = "<group>"; };
 		A3CB40A6328784271389BE9E619BDC2F /* GroupedColorPicker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GroupedColorPicker.swift; sourceTree = "<group>"; };
 		A5F3EFB0ED182218E08650A875E8BA8D /* GroupedColorPickerViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GroupedColorPickerViewController.swift; sourceTree = "<group>"; };
 		AE5C069A45A8540E369A292B1B966176 /* Pods-GroupedColorPicker_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GroupedColorPicker_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		AE79CEC905BAAC7C848D3E0647BE9247 /* GroupedColorPicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = GroupedColorPicker.modulemap; sourceTree = "<group>"; };
+		AE79CEC905BAAC7C848D3E0647BE9247 /* GroupedColorPicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = GroupedColorPicker.modulemap; sourceTree = "<group>"; };
 		BCB02FCE02A3CEDF22AD402F56ECC0E1 /* ColorGroup.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ColorGroup.swift; sourceTree = "<group>"; };
 		C4DBAB2329B3B22C9BC255791CD966C6 /* Pods-GroupedColorPicker_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GroupedColorPicker_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		E0EF277B5C5900794062BBE5D0041B4E /* Pods-GroupedColorPicker_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GroupedColorPicker_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		E3CE26FC662B1784AA2AF009FE57814A /* ja.lproj */ = {isa = PBXFileReference; includeInIndex = 1; path = ja.lproj; sourceTree = "<group>"; };
-		E5E1A3EC8DFF19BAFD2B78F964FB3119 /* Pods-GroupedColorPicker_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-GroupedColorPicker_Tests.modulemap"; sourceTree = "<group>"; };
+		E3CE26FC662B1784AA2AF009FE57814A /* ja.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; path = ja.lproj; sourceTree = "<group>"; };
+		E5E1A3EC8DFF19BAFD2B78F964FB3119 /* Pods-GroupedColorPicker_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-GroupedColorPicker_Tests.modulemap"; sourceTree = "<group>"; };
 		E9206E63DABFFA3012A22791ED441B70 /* Pods-GroupedColorPicker_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GroupedColorPicker_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		E932ADDF20D13080668A1533F65DCBED /* Pods_GroupedColorPicker_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GroupedColorPicker_Tests.framework; path = "Pods-GroupedColorPicker_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E932ADDF20D13080668A1533F65DCBED /* Pods_GroupedColorPicker_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GroupedColorPicker_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC68A39739BC50FEAAB86C9FC5F2F38C /* GroupedColorPicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GroupedColorPicker-umbrella.h"; sourceTree = "<group>"; };
 		F0D401EF6866F19AA6D44F1B67A37C5E /* GroupedColorPicker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GroupedColorPicker.xcconfig; sourceTree = "<group>"; };
-		F2457E26C67061673E6D05390009E4E5 /* GroupedColorPicker.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = GroupedColorPicker.bundle; path = GroupedColorPicker.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2457E26C67061673E6D05390009E4E5 /* GroupedColorPicker.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GroupedColorPicker.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3AE6E0734C866EBB0FD73A27537F5A5 /* Pods-GroupedColorPicker_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GroupedColorPicker_Example-frameworks.sh"; sourceTree = "<group>"; };
 		F6DCF078A920DFE065BBE1FE6DE693BF /* ColorItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ColorItem.swift; sourceTree = "<group>"; };
-		FCBED92C1C6011552BA4E7A37494C6C1 /* Pods-GroupedColorPicker_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-GroupedColorPicker_Example.modulemap"; sourceTree = "<group>"; };
-		FDB21EF4557AFC67D886B8183C043C6D /* en.lproj */ = {isa = PBXFileReference; includeInIndex = 1; path = en.lproj; sourceTree = "<group>"; };
+		FCBED92C1C6011552BA4E7A37494C6C1 /* Pods-GroupedColorPicker_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-GroupedColorPicker_Example.modulemap"; sourceTree = "<group>"; };
+		FDB21EF4557AFC67D886B8183C043C6D /* en.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; path = en.lproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -168,7 +172,6 @@
 				FDB21EF4557AFC67D886B8183C043C6D /* en.lproj */,
 				E3CE26FC662B1784AA2AF009FE57814A /* ja.lproj */,
 			);
-			name = Assets;
 			path = Assets;
 			sourceTree = "<group>";
 		};
@@ -176,7 +179,6 @@
 			isa = PBXGroup;
 			children = (
 			);
-			name = SwiftLint;
 			path = SwiftLint;
 			sourceTree = "<group>";
 		};
@@ -185,7 +187,6 @@
 			children = (
 				2E598E30DBFD56024E3E11F7F6C0B579 /* Assets */,
 			);
-			name = GroupedColorPicker;
 			path = GroupedColorPicker;
 			sourceTree = "<group>";
 		};
@@ -244,7 +245,6 @@
 			children = (
 				C2EFEB3FAFA7013586B718D9F7734134 /* Classes */,
 			);
-			name = GroupedColorPicker;
 			path = GroupedColorPicker;
 			sourceTree = "<group>";
 		};
@@ -291,8 +291,9 @@
 				A3CB40A6328784271389BE9E619BDC2F /* GroupedColorPicker.swift */,
 				A5F3EFB0ED182218E08650A875E8BA8D /* GroupedColorPickerViewController.swift */,
 				8ECEFD8344FCDB75AE0142C4475E2B3F /* UIColor+hexString.swift */,
+				9B0766EB1ED3EC7D0021A89E /* ColorItemCell.swift */,
+				9B0766ED1ED473D80021A89E /* ColorGroupCell.swift */,
 			);
-			name = Classes;
 			path = Classes;
 			sourceTree = "<group>";
 		};
@@ -485,6 +486,8 @@
 				167F3A345D6566354E75310F4B93F658 /* ColorGroup.swift in Sources */,
 				C4C7AD7BEE1190ABE3C7E29D0FF74F1F /* ColorItem.swift in Sources */,
 				5C4CC3178CFF77F6A7CAE4891AC9D127 /* GroupedColorPicker-dummy.m in Sources */,
+				9B0766EE1ED473D80021A89E /* ColorGroupCell.swift in Sources */,
+				9B0766EC1ED3EC7D0021A89E /* ColorItemCell.swift in Sources */,
 				FFA71BCF49C1FE763168945BA2CFB3CB /* GroupedColorPicker.swift in Sources */,
 				0CB25CF45C0191DE9A13660AEAAFCA95 /* GroupedColorPickerViewController.swift in Sources */,
 				CA23D0234094DC35469D20B47FC26201 /* UIColor+hexString.swift in Sources */,

@@ -47,6 +47,7 @@ class ViewController: UIViewController {
         pickerController.didClose = { [weak self] in
             self?.dismiss(animated: true, completion: nil)
         }
+        pickerController.selectedColor = view.backgroundColor
         let navController = UINavigationController(rootViewController: pickerController)
         present(navController, animated: true, completion: nil)
     }
@@ -58,6 +59,7 @@ class ViewController: UIViewController {
             self?.title = hexString
             self?.navigationController?.popToRootViewController(animated: true)
         }
+        pickerController.selectedColor = view.backgroundColor
         navigationController?.pushViewController(pickerController, animated: true)
     }
 }

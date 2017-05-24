@@ -49,6 +49,7 @@ class ViewController: UIViewController {
         }
         pickerController.selectedColor = view.backgroundColor
         let navController = UINavigationController(rootViewController: pickerController)
+        navController.modalPresentationStyle = .formSheet
         present(navController, animated: true, completion: nil)
     }
 

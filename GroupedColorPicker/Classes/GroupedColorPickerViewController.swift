@@ -33,6 +33,7 @@ open class GroupedColorPickerViewController: UIViewController {
         collectionView.register(ColorGroupCell.self, forCellWithReuseIdentifier: self.reuseIdentifier)
         collectionView.dataSource = self
         collectionView.delegate = self
+        collectionView.backgroundColor = .clear
         self.view.addSubview(collectionView)
 
         let length = self.view.bounds.width / ceil(CGFloat(self.groups.count) / 2.0)
@@ -94,7 +95,23 @@ open class GroupedColorPickerViewController: UIViewController {
 
     override open func viewDidLoad() {
         super.viewDidLoad()
+    }
 
+    open override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+
+        initUI()
+    }
+
+    // MARK: - Actions
+
+    func closeItemDidTap(sender: Any?) {
+        didClose?()
+    }
+
+    // MARK: - Utilities
+
+    open func initUI() {
         if didClose != nil {
             let closeItem = UIBarButtonItem(
                 title: GroupedColorPicker.localizedString("Close"),
@@ -116,14 +133,6 @@ open class GroupedColorPickerViewController: UIViewController {
 
         _ = collectionView
     }
-
-    // MARK: - Actions
-
-    func closeItemDidTap(sender: Any?) {
-        didClose?()
-    }
-
-    // MARK: - Utilities
 
     open func focus(contentView: UIView, backgroundColor: UIColor) {
         let overlayView = UIView(frame: contentView.bounds)

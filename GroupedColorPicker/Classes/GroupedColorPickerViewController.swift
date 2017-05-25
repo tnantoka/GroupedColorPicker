@@ -36,7 +36,8 @@ open class GroupedColorPickerViewController: UIViewController {
         collectionView.backgroundColor = .clear
         self.view.addSubview(collectionView)
 
-        let length = self.view.bounds.width / ceil(CGFloat(self.groups.count) / 2.0)
+        let width = (self.navigationController?.view ?? self.view).bounds.width
+        let length = width / ceil(CGFloat(self.groups.count) / 2.0)
         layout.itemSize = CGSize(width: length, height: length)
         layout.minimumLineSpacing = 0.0
         layout.minimumInteritemSpacing = 0.0

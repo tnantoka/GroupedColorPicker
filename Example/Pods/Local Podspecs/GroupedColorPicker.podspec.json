@@ -1,6 +1,6 @@
 {
   "name": "GroupedColorPicker",
-  "version": "0.1.0",
+  "version": "0.3.3",
   "summary": "Color Picker with Material Design palette.",
   "description": "Color picker for grouped colors like a palette of material design.",
   "homepage": "https://github.com/tnantoka/GroupedColorPicker",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/tnantoka/GroupedColorPicker.git",
-    "tag": "0.1.0"
+    "tag": "0.3.3"
   },
   "social_media_url": "https://twitter.com/tnantoka",
   "platforms": {

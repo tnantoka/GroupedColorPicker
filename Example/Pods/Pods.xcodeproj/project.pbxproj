@@ -7,40 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0CB25CF45C0191DE9A13660AEAAFCA95 /* GroupedColorPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F3EFB0ED182218E08650A875E8BA8D /* GroupedColorPickerViewController.swift */; };
-		167F3A345D6566354E75310F4B93F658 /* ColorGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB02FCE02A3CEDF22AD402F56ECC0E1 /* ColorGroup.swift */; };
-		1721447AEBDC0D0F7889E841A39F99E7 /* en.lproj in Resources */ = {isa = PBXBuildFile; fileRef = FDB21EF4557AFC67D886B8183C043C6D /* en.lproj */; };
+		2344AD17F4F0821D565FCE134607AFC1 /* GroupedColorPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E1DD0142CECE8B7ED44C47F8EA78F43 /* GroupedColorPickerViewController.swift */; };
+		2B75DFC6C771EC22FFC32235EF1B1890 /* ColorGroupCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43F194545AB61D2B647A47A81203C26 /* ColorGroupCell.swift */; };
 		2C2653DD24128FECE3CFD72AF805AC51 /* Pods-GroupedColorPicker_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 832CF77A22B789679C6A07524858B67B /* Pods-GroupedColorPicker_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2D0DBB2060790DF4BE8D2CD2DADD8867 /* GroupedColorPicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F8738B0710609ABB68EC53406CB16C4 /* GroupedColorPicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4630E442B2E418336237D5849AC5782F /* GroupedColorPicker.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F2457E26C67061673E6D05390009E4E5 /* GroupedColorPicker.bundle */; };
 		4B107EC1DED0D176B9831F2543C38F42 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		524BBD5F50E2532F97C48FD59BF6FB9D /* GroupedColorPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C983F46B1C212E9EEC2B3EF69F3B529 /* GroupedColorPicker.swift */; };
 		582138958662EC53CFD794E4925EB38A /* Pods-GroupedColorPicker_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 759983E6EBD18C37E4EEFB1BB7E097B1 /* Pods-GroupedColorPicker_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5C4CC3178CFF77F6A7CAE4891AC9D127 /* GroupedColorPicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D73BD3E11FDB7F85817A958926776D7 /* GroupedColorPicker-dummy.m */; };
-		640B4DE06E7615AD7C04A40E1A7594DC /* ja.lproj in Resources */ = {isa = PBXBuildFile; fileRef = E3CE26FC662B1784AA2AF009FE57814A /* ja.lproj */; };
-		6E6C6E88410C812B9AC7364472210BE2 /* GroupedColorPicker.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F2457E26C67061673E6D05390009E4E5 /* GroupedColorPicker.bundle */; };
+		5C824CB544AF51AE11AA8CD2608D647A /* ColorItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4A115023C321F46BA666EF37FE9FE39 /* ColorItemCell.swift */; };
+		619B959B3849217992BA686AFD810D95 /* ColorGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD40838479A549821E272841EE01FFC4 /* ColorGroup.swift */; };
+		62A4EF852877123A737F443D86140668 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		7CB4EEB8BAAE42CC38E043D893FF8A89 /* ja.lproj in Resources */ = {isa = PBXBuildFile; fileRef = B6FA1E7AB588640D8484C9F4102D786C /* ja.lproj */; };
 		7E64FA7E0C0A11C9BCDABD8FE76749E5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		860D71D4492D2A1019C0B0E600D9F284 /* GroupedColorPicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EC68A39739BC50FEAAB86C9FC5F2F38C /* GroupedColorPicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9B0766EC1ED3EC7D0021A89E /* ColorItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0766EB1ED3EC7D0021A89E /* ColorItemCell.swift */; };
-		9B0766EE1ED473D80021A89E /* ColorGroupCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0766ED1ED473D80021A89E /* ColorGroupCell.swift */; };
+		A82F19C3D75B9206AE4E070B61634E3E /* GroupedColorPicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FC7E46154B4739EDCC748F4FAF9E1CB9 /* GroupedColorPicker-dummy.m */; };
 		B3003D4ED69504D7592487FC25557E3E /* Pods-GroupedColorPicker_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A364F854699ABFF37FACC3C27819BDD6 /* Pods-GroupedColorPicker_Example-dummy.m */; };
-		C4C7AD7BEE1190ABE3C7E29D0FF74F1F /* ColorItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6DCF078A920DFE065BBE1FE6DE693BF /* ColorItem.swift */; };
-		CA23D0234094DC35469D20B47FC26201 /* UIColor+hexString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ECEFD8344FCDB75AE0142C4475E2B3F /* UIColor+hexString.swift */; };
+		CEAFDFBFCB94ED31874C6598F33DF4F9 /* UIColor+hexString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D66BC144CBEF1B0993BC977FB878784 /* UIColor+hexString.swift */; };
+		D1EBCB9CDA18715E0F9A2957F5145A1E /* en.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 500B6FD471E8120EDCC566AB598145A2 /* en.lproj */; };
 		D4864989F8E7AB344B513D5317DE864B /* Pods-GroupedColorPicker_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4486D20421A7E8F993E4046E14F97566 /* Pods-GroupedColorPicker_Tests-dummy.m */; };
-		E5FEF1217E3D1F885C9DB994B2B9329A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		FFA71BCF49C1FE763168945BA2CFB3CB /* GroupedColorPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3CB40A6328784271389BE9E619BDC2F /* GroupedColorPicker.swift */; };
+		E60E9C3B89706CBF651CBAE078DC6161 /* ColorItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7345FD35E73357BF4204E69DF13F5DB3 /* ColorItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		403B67485602DC2A6A847EDDB99123F7 /* PBXContainerItemProxy */ = {
+		5D771702BB8C975B74B0E77642F67CD0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 06F9CB825BC6891D5925CA09D7E7898A;
+			remoteGlobalIDString = BCB9A8545DFECD830997E2D6F9EED50A;
 			remoteInfo = "GroupedColorPicker-GroupedColorPicker";
 		};
 		C8845D4DD2DD4993B12E8ADCB729D58F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 9D874E2A217A8CB6A69D8BFF3AB80001;
+			remoteGlobalIDString = 9727EEBC02A3A73CB41CA1D1ADABAAC5;
 			remoteInfo = GroupedColorPicker;
 		};
 /* End PBXContainerItemProxy section */
@@ -48,54 +48,54 @@
 /* Begin PBXFileReference section */
 		0173A4022623A7801B1CF8DBC3748246 /* Pods-GroupedColorPicker_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GroupedColorPicker_Example-resources.sh"; sourceTree = "<group>"; };
 		0452F1AA2B3BEF78EA483E93B78C3587 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F8738B0710609ABB68EC53406CB16C4 /* GroupedColorPicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GroupedColorPicker-umbrella.h"; sourceTree = "<group>"; };
 		1918E7CF823E25735CA56D0EBD4A52A0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		40064F3AFA2C089F2967EDF1B4D45655 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		417957106551BA7C9AC87615FE7150D4 /* Pods_GroupedColorPicker_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GroupedColorPicker_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E1DD0142CECE8B7ED44C47F8EA78F43 /* GroupedColorPickerViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GroupedColorPickerViewController.swift; path = GroupedColorPicker/Classes/GroupedColorPickerViewController.swift; sourceTree = "<group>"; };
+		3C983F46B1C212E9EEC2B3EF69F3B529 /* GroupedColorPicker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GroupedColorPicker.swift; path = GroupedColorPicker/Classes/GroupedColorPicker.swift; sourceTree = "<group>"; };
+		417957106551BA7C9AC87615FE7150D4 /* Pods_GroupedColorPicker_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GroupedColorPicker_Example.framework; path = "Pods-GroupedColorPicker_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4486D20421A7E8F993E4046E14F97566 /* Pods-GroupedColorPicker_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GroupedColorPicker_Tests-dummy.m"; sourceTree = "<group>"; };
+		4D66BC144CBEF1B0993BC977FB878784 /* UIColor+hexString.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIColor+hexString.swift"; path = "GroupedColorPicker/Classes/UIColor+hexString.swift"; sourceTree = "<group>"; };
+		500B6FD471E8120EDCC566AB598145A2 /* en.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = en.lproj; path = GroupedColorPicker/Assets/en.lproj; sourceTree = "<group>"; };
 		513D68AD2B03652935B172FDBFD4CFF5 /* Pods-GroupedColorPicker_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GroupedColorPicker_Example.release.xcconfig"; sourceTree = "<group>"; };
 		543DD6376468EB611991D8D07D79EF3F /* Pods-GroupedColorPicker_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GroupedColorPicker_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		58DCD48B09CAD71B63E6EE18BBC7F00D /* GroupedColorPicker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GroupedColorPicker.xcconfig; sourceTree = "<group>"; };
 		5C65E20783BF4998F49D396925C061EA /* Pods-GroupedColorPicker_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GroupedColorPicker_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7345FD35E73357BF4204E69DF13F5DB3 /* ColorItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ColorItem.swift; path = GroupedColorPicker/Classes/ColorItem.swift; sourceTree = "<group>"; };
 		759983E6EBD18C37E4EEFB1BB7E097B1 /* Pods-GroupedColorPicker_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GroupedColorPicker_Tests-umbrella.h"; sourceTree = "<group>"; };
 		7ABD1273F8B0BDBE7EBA8FA539E19150 /* Pods-GroupedColorPicker_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GroupedColorPicker_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		7D73BD3E11FDB7F85817A958926776D7 /* GroupedColorPicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GroupedColorPicker-dummy.m"; sourceTree = "<group>"; };
 		81430DCF80968C7572C0D52009DF4F71 /* Pods-GroupedColorPicker_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GroupedColorPicker_Tests-resources.sh"; sourceTree = "<group>"; };
 		832CF77A22B789679C6A07524858B67B /* Pods-GroupedColorPicker_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GroupedColorPicker_Example-umbrella.h"; sourceTree = "<group>"; };
-		88291CFFBAEE5E0971A8085EEF506725 /* ResourceBundle-GroupedColorPicker-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-GroupedColorPicker-Info.plist"; sourceTree = "<group>"; };
+		8B4F049109CBAF5D61ADB00E1583AB82 /* ResourceBundle-GroupedColorPicker-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-GroupedColorPicker-Info.plist"; sourceTree = "<group>"; };
 		8C848BDD1BF163B9A5A97C96F04A2625 /* Pods-GroupedColorPicker_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GroupedColorPicker_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		8ECEFD8344FCDB75AE0142C4475E2B3F /* UIColor+hexString.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIColor+hexString.swift"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9B0766EB1ED3EC7D0021A89E /* ColorItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorItemCell.swift; sourceTree = "<group>"; };
-		9B0766ED1ED473D80021A89E /* ColorGroupCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorGroupCell.swift; sourceTree = "<group>"; };
-		9E1379D153F14ED3C5C237AF5C7E3512 /* GroupedColorPicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GroupedColorPicker-prefix.pch"; sourceTree = "<group>"; };
-		9F26CACCE82E80FA0F7A59FD9459EC22 /* GroupedColorPicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GroupedColorPicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9CF2EDB9EFB35EAD530FDF6E77B9569D /* GroupedColorPicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GroupedColorPicker-prefix.pch"; sourceTree = "<group>"; };
+		9F26CACCE82E80FA0F7A59FD9459EC22 /* GroupedColorPicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GroupedColorPicker.framework; path = GroupedColorPicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A364F854699ABFF37FACC3C27819BDD6 /* Pods-GroupedColorPicker_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GroupedColorPicker_Example-dummy.m"; sourceTree = "<group>"; };
-		A3CB40A6328784271389BE9E619BDC2F /* GroupedColorPicker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GroupedColorPicker.swift; sourceTree = "<group>"; };
-		A5F3EFB0ED182218E08650A875E8BA8D /* GroupedColorPickerViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GroupedColorPickerViewController.swift; sourceTree = "<group>"; };
+		A43F194545AB61D2B647A47A81203C26 /* ColorGroupCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ColorGroupCell.swift; path = GroupedColorPicker/Classes/ColorGroupCell.swift; sourceTree = "<group>"; };
 		AE5C069A45A8540E369A292B1B966176 /* Pods-GroupedColorPicker_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GroupedColorPicker_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		AE79CEC905BAAC7C848D3E0647BE9247 /* GroupedColorPicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = GroupedColorPicker.modulemap; sourceTree = "<group>"; };
-		BCB02FCE02A3CEDF22AD402F56ECC0E1 /* ColorGroup.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ColorGroup.swift; sourceTree = "<group>"; };
+		B4A115023C321F46BA666EF37FE9FE39 /* ColorItemCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ColorItemCell.swift; path = GroupedColorPicker/Classes/ColorItemCell.swift; sourceTree = "<group>"; };
+		B6FA1E7AB588640D8484C9F4102D786C /* ja.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = ja.lproj; path = GroupedColorPicker/Assets/ja.lproj; sourceTree = "<group>"; };
+		C2785464C64C41AF3257090282D756D4 /* GroupedColorPicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = GroupedColorPicker.modulemap; sourceTree = "<group>"; };
 		C4DBAB2329B3B22C9BC255791CD966C6 /* Pods-GroupedColorPicker_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GroupedColorPicker_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CD40838479A549821E272841EE01FFC4 /* ColorGroup.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ColorGroup.swift; path = GroupedColorPicker/Classes/ColorGroup.swift; sourceTree = "<group>"; };
 		E0EF277B5C5900794062BBE5D0041B4E /* Pods-GroupedColorPicker_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GroupedColorPicker_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		E3CE26FC662B1784AA2AF009FE57814A /* ja.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; path = ja.lproj; sourceTree = "<group>"; };
-		E5E1A3EC8DFF19BAFD2B78F964FB3119 /* Pods-GroupedColorPicker_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-GroupedColorPicker_Tests.modulemap"; sourceTree = "<group>"; };
+		E5E1A3EC8DFF19BAFD2B78F964FB3119 /* Pods-GroupedColorPicker_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-GroupedColorPicker_Tests.modulemap"; sourceTree = "<group>"; };
 		E9206E63DABFFA3012A22791ED441B70 /* Pods-GroupedColorPicker_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GroupedColorPicker_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		E932ADDF20D13080668A1533F65DCBED /* Pods_GroupedColorPicker_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GroupedColorPicker_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EC68A39739BC50FEAAB86C9FC5F2F38C /* GroupedColorPicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GroupedColorPicker-umbrella.h"; sourceTree = "<group>"; };
-		F0D401EF6866F19AA6D44F1B67A37C5E /* GroupedColorPicker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GroupedColorPicker.xcconfig; sourceTree = "<group>"; };
-		F2457E26C67061673E6D05390009E4E5 /* GroupedColorPicker.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GroupedColorPicker.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		E932ADDF20D13080668A1533F65DCBED /* Pods_GroupedColorPicker_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GroupedColorPicker_Tests.framework; path = "Pods-GroupedColorPicker_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0F0F5E96C91FD155FD9D20614DEABC1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2457E26C67061673E6D05390009E4E5 /* GroupedColorPicker.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = GroupedColorPicker.bundle; path = GroupedColorPicker.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3AE6E0734C866EBB0FD73A27537F5A5 /* Pods-GroupedColorPicker_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GroupedColorPicker_Example-frameworks.sh"; sourceTree = "<group>"; };
-		F6DCF078A920DFE065BBE1FE6DE693BF /* ColorItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ColorItem.swift; sourceTree = "<group>"; };
-		FCBED92C1C6011552BA4E7A37494C6C1 /* Pods-GroupedColorPicker_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-GroupedColorPicker_Example.modulemap"; sourceTree = "<group>"; };
-		FDB21EF4557AFC67D886B8183C043C6D /* en.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; path = en.lproj; sourceTree = "<group>"; };
+		FC7E46154B4739EDCC748F4FAF9E1CB9 /* GroupedColorPicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GroupedColorPicker-dummy.m"; sourceTree = "<group>"; };
+		FCBED92C1C6011552BA4E7A37494C6C1 /* Pods-GroupedColorPicker_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-GroupedColorPicker_Example.modulemap"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2448F93181625725A03A34ADCFE5BBD2 /* Frameworks */ = {
+		269FE2DD97E23BD451BB1C6DBD0FA796 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E5FEF1217E3D1F885C9DB994B2B9329A /* Foundation.framework in Frameworks */,
+				62A4EF852877123A737F443D86140668 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -115,7 +115,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B3B4A91299EAB6F2FB90D7A9B42E7A0B /* Frameworks */ = {
+		B79E93BBF72A8A35A919AD8C6CF94E03 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -125,29 +125,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0A69EB30C5BD231EF0BE19291A4A2DB0 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				8D4A19B62ADC2B178F0DACF4AE4BF94F /* GroupedColorPicker */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		172BC1DEB36AFC467AB07AD4DD15DD62 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				AE79CEC905BAAC7C848D3E0647BE9247 /* GroupedColorPicker.modulemap */,
-				F0D401EF6866F19AA6D44F1B67A37C5E /* GroupedColorPicker.xcconfig */,
-				7D73BD3E11FDB7F85817A958926776D7 /* GroupedColorPicker-dummy.m */,
-				9E1379D153F14ED3C5C237AF5C7E3512 /* GroupedColorPicker-prefix.pch */,
-				EC68A39739BC50FEAAB86C9FC5F2F38C /* GroupedColorPicker-umbrella.h */,
-				40064F3AFA2C089F2967EDF1B4D45655 /* Info.plist */,
-				88291CFFBAEE5E0971A8085EEF506725 /* ResourceBundle-GroupedColorPicker-Info.plist */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/GroupedColorPicker";
-			sourceTree = "<group>";
-		};
 		264A132FA97654CA7B1CCC2291C29AFB /* Pods-GroupedColorPicker_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -166,35 +143,42 @@
 			path = "Target Support Files/Pods-GroupedColorPicker_Tests";
 			sourceTree = "<group>";
 		};
-		2E598E30DBFD56024E3E11F7F6C0B579 /* Assets */ = {
+		2BBE3D8B0A4B04A3BDC58C41BAFA9DB6 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				FDB21EF4557AFC67D886B8183C043C6D /* en.lproj */,
-				E3CE26FC662B1784AA2AF009FE57814A /* ja.lproj */,
+				CE6FD2565EF53CFB84BB39E3628EC210 /* GroupedColorPicker */,
 			);
-			path = Assets;
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		315895F62B4EF3DD72811B3F2ADB81C6 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C2785464C64C41AF3257090282D756D4 /* GroupedColorPicker.modulemap */,
+				58DCD48B09CAD71B63E6EE18BBC7F00D /* GroupedColorPicker.xcconfig */,
+				FC7E46154B4739EDCC748F4FAF9E1CB9 /* GroupedColorPicker-dummy.m */,
+				9CF2EDB9EFB35EAD530FDF6E77B9569D /* GroupedColorPicker-prefix.pch */,
+				0F8738B0710609ABB68EC53406CB16C4 /* GroupedColorPicker-umbrella.h */,
+				F0F0F5E96C91FD155FD9D20614DEABC1 /* Info.plist */,
+				8B4F049109CBAF5D61ADB00E1583AB82 /* ResourceBundle-GroupedColorPicker-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/GroupedColorPicker";
 			sourceTree = "<group>";
 		};
 		32A23E08346748F1793F899C5FF672C1 /* SwiftLint */ = {
 			isa = PBXGroup;
 			children = (
 			);
+			name = SwiftLint;
 			path = SwiftLint;
-			sourceTree = "<group>";
-		};
-		470B64DFD4F4E86118D9B9747DB0EE51 /* GroupedColorPicker */ = {
-			isa = PBXGroup;
-			children = (
-				2E598E30DBFD56024E3E11F7F6C0B579 /* Assets */,
-			);
-			path = GroupedColorPicker;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				0A69EB30C5BD231EF0BE19291A4A2DB0 /* Development Pods */,
+				2BBE3D8B0A4B04A3BDC58C41BAFA9DB6 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				9758CC519AE2C57A9659FFC01AAD26F9 /* Pods */,
 				983BD9BB06D9F2E10772FB8682146313 /* Products */,
@@ -202,15 +186,13 @@
 			);
 			sourceTree = "<group>";
 		};
-		8D4A19B62ADC2B178F0DACF4AE4BF94F /* GroupedColorPicker */ = {
+		8996F8553ECE3CB49B4BF77060B05E34 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				A886146FDBC7D22B17AF3336CAC15B95 /* GroupedColorPicker */,
-				A6F69698C4573B399CB85FACB8E94A3A /* Resources */,
-				172BC1DEB36AFC467AB07AD4DD15DD62 /* Support Files */,
+				500B6FD471E8120EDCC566AB598145A2 /* en.lproj */,
+				B6FA1E7AB588640D8484C9F4102D786C /* ja.lproj */,
 			);
-			name = GroupedColorPicker;
-			path = ../..;
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		9758CC519AE2C57A9659FFC01AAD26F9 /* Pods */ = {
@@ -230,22 +212,6 @@
 				E932ADDF20D13080668A1533F65DCBED /* Pods_GroupedColorPicker_Tests.framework */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		A6F69698C4573B399CB85FACB8E94A3A /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				470B64DFD4F4E86118D9B9747DB0EE51 /* GroupedColorPicker */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		A886146FDBC7D22B17AF3336CAC15B95 /* GroupedColorPicker */ = {
-			isa = PBXGroup;
-			children = (
-				C2EFEB3FAFA7013586B718D9F7734134 /* Classes */,
-			);
-			path = GroupedColorPicker;
 			sourceTree = "<group>";
 		};
 		ADEC7A25A36C08048D9DD07A514CF9A7 /* Pods-GroupedColorPicker_Example */ = {
@@ -283,18 +249,21 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		C2EFEB3FAFA7013586B718D9F7734134 /* Classes */ = {
+		CE6FD2565EF53CFB84BB39E3628EC210 /* GroupedColorPicker */ = {
 			isa = PBXGroup;
 			children = (
-				BCB02FCE02A3CEDF22AD402F56ECC0E1 /* ColorGroup.swift */,
-				F6DCF078A920DFE065BBE1FE6DE693BF /* ColorItem.swift */,
-				A3CB40A6328784271389BE9E619BDC2F /* GroupedColorPicker.swift */,
-				A5F3EFB0ED182218E08650A875E8BA8D /* GroupedColorPickerViewController.swift */,
-				8ECEFD8344FCDB75AE0142C4475E2B3F /* UIColor+hexString.swift */,
-				9B0766EB1ED3EC7D0021A89E /* ColorItemCell.swift */,
-				9B0766ED1ED473D80021A89E /* ColorGroupCell.swift */,
+				CD40838479A549821E272841EE01FFC4 /* ColorGroup.swift */,
+				A43F194545AB61D2B647A47A81203C26 /* ColorGroupCell.swift */,
+				7345FD35E73357BF4204E69DF13F5DB3 /* ColorItem.swift */,
+				B4A115023C321F46BA666EF37FE9FE39 /* ColorItemCell.swift */,
+				3C983F46B1C212E9EEC2B3EF69F3B529 /* GroupedColorPicker.swift */,
+				2E1DD0142CECE8B7ED44C47F8EA78F43 /* GroupedColorPickerViewController.swift */,
+				4D66BC144CBEF1B0993BC977FB878784 /* UIColor+hexString.swift */,
+				8996F8553ECE3CB49B4BF77060B05E34 /* Resources */,
+				315895F62B4EF3DD72811B3F2ADB81C6 /* Support Files */,
 			);
-			path = Classes;
+			name = GroupedColorPicker;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
@@ -308,11 +277,11 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		34CC6A9F080C320407950EB3D1709190 /* Headers */ = {
+		428F95CA1709A975D5E2B29EF9B9A6C7 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				860D71D4492D2A1019C0B0E600D9F284 /* GroupedColorPicker-umbrella.h in Headers */,
+				2D0DBB2060790DF4BE8D2CD2DADD8867 /* GroupedColorPicker-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -335,22 +304,24 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		06F9CB825BC6891D5925CA09D7E7898A /* GroupedColorPicker-GroupedColorPicker */ = {
+		9727EEBC02A3A73CB41CA1D1ADABAAC5 /* GroupedColorPicker */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9C24902CB2D93CAC1A2EF2E526E378B6 /* Build configuration list for PBXNativeTarget "GroupedColorPicker-GroupedColorPicker" */;
+			buildConfigurationList = 2445950A90B79B9E97A113F942167B7E /* Build configuration list for PBXNativeTarget "GroupedColorPicker" */;
 			buildPhases = (
-				0A738973AFE5734576E1186F23E5F681 /* Sources */,
-				B3B4A91299EAB6F2FB90D7A9B42E7A0B /* Frameworks */,
-				65DD96086B8816C05DD32DA5D7E25F0D /* Resources */,
+				28F1DE81F8C0574438273B81F6A69A02 /* Sources */,
+				269FE2DD97E23BD451BB1C6DBD0FA796 /* Frameworks */,
+				E1A2E583192907B32F5466B52216B0D6 /* Resources */,
+				428F95CA1709A975D5E2B29EF9B9A6C7 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				B9B5369CCC9A090BE30B6609746749AA /* PBXTargetDependency */,
 			);
-			name = "GroupedColorPicker-GroupedColorPicker";
-			productName = "GroupedColorPicker-GroupedColorPicker";
-			productReference = F2457E26C67061673E6D05390009E4E5 /* GroupedColorPicker.bundle */;
-			productType = "com.apple.product-type.bundle";
+			name = GroupedColorPicker;
+			productName = GroupedColorPicker;
+			productReference = 9F26CACCE82E80FA0F7A59FD9459EC22 /* GroupedColorPicker.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 		9D3F828DF958B1D49C256FEDBBEDBD36 /* Pods-GroupedColorPicker_Tests */ = {
 			isa = PBXNativeTarget;
@@ -369,24 +340,22 @@
 			productReference = E932ADDF20D13080668A1533F65DCBED /* Pods_GroupedColorPicker_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		9D874E2A217A8CB6A69D8BFF3AB80001 /* GroupedColorPicker */ = {
+		BCB9A8545DFECD830997E2D6F9EED50A /* GroupedColorPicker-GroupedColorPicker */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 55A9BA6636E722D4BA715DD8A114EAB2 /* Build configuration list for PBXNativeTarget "GroupedColorPicker" */;
+			buildConfigurationList = DA37BC25460CBF3DE5DC8A0459D4B0C1 /* Build configuration list for PBXNativeTarget "GroupedColorPicker-GroupedColorPicker" */;
 			buildPhases = (
-				F5005B066CBADE4D29792FD50CFF5375 /* Sources */,
-				2448F93181625725A03A34ADCFE5BBD2 /* Frameworks */,
-				112E617E98CFB15B08B56725BCD482F4 /* Resources */,
-				34CC6A9F080C320407950EB3D1709190 /* Headers */,
+				3502ACDC40885BA5E04CCE9C07E20841 /* Sources */,
+				B79E93BBF72A8A35A919AD8C6CF94E03 /* Frameworks */,
+				5AAA5B7FCCAAD910284AC69617B744EA /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				B10D45C50799D5B93DC44A491FFEC618 /* PBXTargetDependency */,
 			);
-			name = GroupedColorPicker;
-			productName = GroupedColorPicker;
-			productReference = 9F26CACCE82E80FA0F7A59FD9459EC22 /* GroupedColorPicker.framework */;
-			productType = "com.apple.product-type.framework";
+			name = "GroupedColorPicker-GroupedColorPicker";
+			productName = "GroupedColorPicker-GroupedColorPicker";
+			productReference = F2457E26C67061673E6D05390009E4E5 /* GroupedColorPicker.bundle */;
+			productType = "com.apple.product-type.bundle";
 		};
 		F3903F911A062F3ED6E1598D49AAEEF1 /* Pods-GroupedColorPicker_Example */ = {
 			isa = PBXNativeTarget;
@@ -427,8 +396,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9D874E2A217A8CB6A69D8BFF3AB80001 /* GroupedColorPicker */,
-				06F9CB825BC6891D5925CA09D7E7898A /* GroupedColorPicker-GroupedColorPicker */,
+				9727EEBC02A3A73CB41CA1D1ADABAAC5 /* GroupedColorPicker */,
+				BCB9A8545DFECD830997E2D6F9EED50A /* GroupedColorPicker-GroupedColorPicker */,
 				F3903F911A062F3ED6E1598D49AAEEF1 /* Pods-GroupedColorPicker_Example */,
 				9D3F828DF958B1D49C256FEDBBEDBD36 /* Pods-GroupedColorPicker_Tests */,
 			);
@@ -436,27 +405,42 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		112E617E98CFB15B08B56725BCD482F4 /* Resources */ = {
+		5AAA5B7FCCAAD910284AC69617B744EA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6E6C6E88410C812B9AC7364472210BE2 /* GroupedColorPicker.bundle in Resources */,
+				D1EBCB9CDA18715E0F9A2957F5145A1E /* en.lproj in Resources */,
+				7CB4EEB8BAAE42CC38E043D893FF8A89 /* ja.lproj in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		65DD96086B8816C05DD32DA5D7E25F0D /* Resources */ = {
+		E1A2E583192907B32F5466B52216B0D6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1721447AEBDC0D0F7889E841A39F99E7 /* en.lproj in Resources */,
-				640B4DE06E7615AD7C04A40E1A7594DC /* ja.lproj in Resources */,
+				4630E442B2E418336237D5849AC5782F /* GroupedColorPicker.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0A738973AFE5734576E1186F23E5F681 /* Sources */ = {
+		28F1DE81F8C0574438273B81F6A69A02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				619B959B3849217992BA686AFD810D95 /* ColorGroup.swift in Sources */,
+				2B75DFC6C771EC22FFC32235EF1B1890 /* ColorGroupCell.swift in Sources */,
+				E60E9C3B89706CBF651CBAE078DC6161 /* ColorItem.swift in Sources */,
+				5C824CB544AF51AE11AA8CD2608D647A /* ColorItemCell.swift in Sources */,
+				A82F19C3D75B9206AE4E070B61634E3E /* GroupedColorPicker-dummy.m in Sources */,
+				524BBD5F50E2532F97C48FD59BF6FB9D /* GroupedColorPicker.swift in Sources */,
+				2344AD17F4F0821D565FCE134607AFC1 /* GroupedColorPickerViewController.swift in Sources */,
+				CEAFDFBFCB94ED31874C6598F33DF4F9 /* UIColor+hexString.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3502ACDC40885BA5E04CCE9C07E20841 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -479,46 +463,309 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F5005B066CBADE4D29792FD50CFF5375 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				167F3A345D6566354E75310F4B93F658 /* ColorGroup.swift in Sources */,
-				C4C7AD7BEE1190ABE3C7E29D0FF74F1F /* ColorItem.swift in Sources */,
-				5C4CC3178CFF77F6A7CAE4891AC9D127 /* GroupedColorPicker-dummy.m in Sources */,
-				9B0766EE1ED473D80021A89E /* ColorGroupCell.swift in Sources */,
-				9B0766EC1ED3EC7D0021A89E /* ColorItemCell.swift in Sources */,
-				FFA71BCF49C1FE763168945BA2CFB3CB /* GroupedColorPicker.swift in Sources */,
-				0CB25CF45C0191DE9A13660AEAAFCA95 /* GroupedColorPickerViewController.swift in Sources */,
-				CA23D0234094DC35469D20B47FC26201 /* UIColor+hexString.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		B10D45C50799D5B93DC44A491FFEC618 /* PBXTargetDependency */ = {
+		B9B5369CCC9A090BE30B6609746749AA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "GroupedColorPicker-GroupedColorPicker";
-			target = 06F9CB825BC6891D5925CA09D7E7898A /* GroupedColorPicker-GroupedColorPicker */;
-			targetProxy = 403B67485602DC2A6A847EDDB99123F7 /* PBXContainerItemProxy */;
+			target = BCB9A8545DFECD830997E2D6F9EED50A /* GroupedColorPicker-GroupedColorPicker */;
+			targetProxy = 5D771702BB8C975B74B0E77642F67CD0 /* PBXContainerItemProxy */;
 		};
 		E0C175B4AD090602D59E3A39E81BF26B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = GroupedColorPicker;
-			target = 9D874E2A217A8CB6A69D8BFF3AB80001 /* GroupedColorPicker */;
+			target = 9727EEBC02A3A73CB41CA1D1ADABAAC5 /* GroupedColorPicker */;
 			targetProxy = C8845D4DD2DD4993B12E8ADCB729D58F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		1CB158AC224C0113E9A816B366F999B8 /* Debug */ = {
+		03AFD25F8BBB1BAF228406D30025C5F4 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F0D401EF6866F19AA6D44F1B67A37C5E /* GroupedColorPicker.xcconfig */;
+			baseConfigurationReference = 58DCD48B09CAD71B63E6EE18BBC7F00D /* GroupedColorPicker.xcconfig */;
 			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/GroupedColorPicker";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GroupedColorPicker/GroupedColorPicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GroupedColorPicker/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GroupedColorPicker/GroupedColorPicker.modulemap";
+				PRODUCT_NAME = GroupedColorPicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1CDAB5613991E411E5990BAF694995C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		3F3A14689A579C94A7F4DE3A1598508A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9206E63DABFFA3012A22791ED441B70 /* Pods-GroupedColorPicker_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GroupedColorPicker_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GroupedColorPicker_Tests/Pods-GroupedColorPicker_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_GroupedColorPicker_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7B62A85C412D689EF418FA67DA770A41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		8CA2E6CC7DE5190C1B54B6EA406D827B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 513D68AD2B03652935B172FDBFD4CFF5 /* Pods-GroupedColorPicker_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GroupedColorPicker_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GroupedColorPicker_Example/Pods-GroupedColorPicker_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_GroupedColorPicker_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9BEA58E7F7A9C3A9C86302A5590A3B3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C65E20783BF4998F49D396925C061EA /* Pods-GroupedColorPicker_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GroupedColorPicker_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GroupedColorPicker_Example/Pods-GroupedColorPicker_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_GroupedColorPicker_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CA2DE8FFD2C18B598044455C66F81C24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58DCD48B09CAD71B63E6EE18BBC7F00D /* GroupedColorPicker.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GroupedColorPicker/GroupedColorPicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GroupedColorPicker/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GroupedColorPicker/GroupedColorPicker.modulemap";
+				PRODUCT_NAME = GroupedColorPicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D8B9917E5E7B1A3EA47BAB236E1538E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58DCD48B09CAD71B63E6EE18BBC7F00D /* GroupedColorPicker.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/GroupedColorPicker";
 				INFOPLIST_FILE = "Target Support Files/GroupedColorPicker/ResourceBundle-GroupedColorPicker-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				PRODUCT_NAME = GroupedColorPicker;
@@ -529,170 +776,7 @@
 			};
 			name = Debug;
 		};
-		345CC476DF4A7516DBD2220CF5035FF3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_REQUIRED = NO;
-				COPY_PHASE_STRIP = NO;
-				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_DEBUG=1",
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				ONLY_ACTIVE_ARCH = YES;
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Debug;
-		};
-		56F91BFE4E1B0B106CFE00D1709B58FC /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F0D401EF6866F19AA6D44F1B67A37C5E /* GroupedColorPicker.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/GroupedColorPicker/GroupedColorPicker-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/GroupedColorPicker/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/GroupedColorPicker/GroupedColorPicker.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = GroupedColorPicker;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		600B7CD1B82DCBD3A993FEE1A26012F3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E9206E63DABFFA3012A22791ED441B70 /* Pods-GroupedColorPicker_Tests.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-GroupedColorPicker_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-GroupedColorPicker_Tests/Pods-GroupedColorPicker_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_GroupedColorPicker_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		717E77604BFBB04BEAF56608A1CB2EDE /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_REQUIRED = NO;
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		74AA0AF0E326D4FE5C72668ABD08F7BD /* Debug */ = {
+		E45D0E125F2046D5FC52519D3C962204 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E0EF277B5C5900794062BBE5D0041B4E /* Pods-GroupedColorPicker_Tests.debug.xcconfig */;
 			buildSettings = {
@@ -701,20 +785,16 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-GroupedColorPicker_Tests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-GroupedColorPicker_Tests/Pods-GroupedColorPicker_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -728,124 +808,12 @@
 			};
 			name = Debug;
 		};
-		8070148A32831C80E62B0FDABE500026 /* Debug */ = {
+		E906C6164829ACBD2AC67E12A86102B1 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5C65E20783BF4998F49D396925C061EA /* Pods-GroupedColorPicker_Example.debug.xcconfig */;
+			baseConfigurationReference = 58DCD48B09CAD71B63E6EE18BBC7F00D /* GroupedColorPicker.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-GroupedColorPicker_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-GroupedColorPicker_Example/Pods-GroupedColorPicker_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_GroupedColorPicker_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		ACBF78BA3BE1A5E84114587427046B2E /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F0D401EF6866F19AA6D44F1B67A37C5E /* GroupedColorPicker.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/GroupedColorPicker/GroupedColorPicker-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/GroupedColorPicker/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/GroupedColorPicker/GroupedColorPicker.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = GroupedColorPicker;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		DC08643C49CAD6FF48FA508A2A0D2F7D /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 513D68AD2B03652935B172FDBFD4CFF5 /* Pods-GroupedColorPicker_Example.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-GroupedColorPicker_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-GroupedColorPicker_Example/Pods-GroupedColorPicker_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_GroupedColorPicker_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		FC6AC8737ECE046AF054844385EEBA07 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F0D401EF6866F19AA6D44F1B67A37C5E /* GroupedColorPicker.xcconfig */;
-			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/GroupedColorPicker";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "Target Support Files/GroupedColorPicker/ResourceBundle-GroupedColorPicker-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				PRODUCT_NAME = GroupedColorPicker;
@@ -862,8 +830,17 @@
 		0A0C4D8A3CC5F7302A941B55D18E7B6C /* Build configuration list for PBXNativeTarget "Pods-GroupedColorPicker_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8070148A32831C80E62B0FDABE500026 /* Debug */,
-				DC08643C49CAD6FF48FA508A2A0D2F7D /* Release */,
+				9BEA58E7F7A9C3A9C86302A5590A3B3E /* Debug */,
+				8CA2E6CC7DE5190C1B54B6EA406D827B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2445950A90B79B9E97A113F942167B7E /* Build configuration list for PBXNativeTarget "GroupedColorPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA2DE8FFD2C18B598044455C66F81C24 /* Debug */,
+				03AFD25F8BBB1BAF228406D30025C5F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -871,8 +848,8 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				345CC476DF4A7516DBD2220CF5035FF3 /* Debug */,
-				717E77604BFBB04BEAF56608A1CB2EDE /* Release */,
+				1CDAB5613991E411E5990BAF694995C5 /* Debug */,
+				7B62A85C412D689EF418FA67DA770A41 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -880,26 +857,17 @@
 		40261BECD12A4F45CB6D46C8CBCEC23F /* Build configuration list for PBXNativeTarget "Pods-GroupedColorPicker_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				74AA0AF0E326D4FE5C72668ABD08F7BD /* Debug */,
-				600B7CD1B82DCBD3A993FEE1A26012F3 /* Release */,
+				E45D0E125F2046D5FC52519D3C962204 /* Debug */,
+				3F3A14689A579C94A7F4DE3A1598508A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		55A9BA6636E722D4BA715DD8A114EAB2 /* Build configuration list for PBXNativeTarget "GroupedColorPicker" */ = {
+		DA37BC25460CBF3DE5DC8A0459D4B0C1 /* Build configuration list for PBXNativeTarget "GroupedColorPicker-GroupedColorPicker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				56F91BFE4E1B0B106CFE00D1709B58FC /* Debug */,
-				ACBF78BA3BE1A5E84114587427046B2E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		9C24902CB2D93CAC1A2EF2E526E378B6 /* Build configuration list for PBXNativeTarget "GroupedColorPicker-GroupedColorPicker" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				1CB158AC224C0113E9A816B366F999B8 /* Debug */,
-				FC6AC8737ECE046AF054844385EEBA07 /* Release */,
+				D8B9917E5E7B1A3EA47BAB236E1538E0 /* Debug */,
+				E906C6164829ACBD2AC67E12A86102B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

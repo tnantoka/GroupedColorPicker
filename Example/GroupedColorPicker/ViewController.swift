@@ -57,7 +57,7 @@ class ViewController: UIViewController {
 
     // MARK: - Actions
 
-    func modal(sender: Any?) {
+    @objc func modal(sender: Any?) {
         let pickerController = pickerForModal
 
         let navController = UINavigationController(rootViewController: pickerController)
@@ -66,7 +66,7 @@ class ViewController: UIViewController {
         present(navController, animated: true, completion: nil)
     }
 
-    func push(sender: Any?) {
+    @objc func push(sender: Any?) {
         let pickerController = GroupedColorPickerViewController()
         pickerController.didSelect = { [weak self] color, hexString in
             self?.view.backgroundColor = color
@@ -77,7 +77,7 @@ class ViewController: UIViewController {
         navigationController?.pushViewController(pickerController, animated: true)
     }
 
-    func pushInModal(sender: Any?) {
+    @objc func pushInModal(sender: Any?) {
         let pickerController = pickerForModal
 
         let navController = UINavigationController(rootViewController: UIViewController())

@@ -13,7 +13,7 @@ open class GroupedColorPickerViewController: UIViewController {
     fileprivate let reuseIdentifier = "Cell"
 
     open var didClose: (() -> Void)?
-    open var didSelect: (UIColor, String) -> Void = { _ in }
+    open var didSelect: (UIColor, String) -> Void = { _, _ in }
 
     open var selectedColor: UIColor?
     open var selectedGroup: ColorGroup? {
@@ -106,7 +106,7 @@ open class GroupedColorPickerViewController: UIViewController {
 
     // MARK: - Actions
 
-    func closeItemDidTap(sender: Any?) {
+    @objc func closeItemDidTap(sender: Any?) {
         didClose?()
     }
 
@@ -144,10 +144,11 @@ open class GroupedColorPickerViewController: UIViewController {
             withDuration: 0.3,
             animations: {
                 overlayView.alpha = 0.0
+            },
+            completion: { _ in
+                overlayView.removeFromSuperview()
             }
-        ) { _ in
-            overlayView.removeFromSuperview()
-        }
+        )
     }
 }
 

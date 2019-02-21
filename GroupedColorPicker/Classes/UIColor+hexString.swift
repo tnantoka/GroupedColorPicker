@@ -20,7 +20,7 @@ extension UIColor {
 
         let substrings: [String] = stride(from: 0, to: 6, by: 2).map {
             let index = { trimmed.index(trimmed.startIndex, offsetBy: $0) }
-            return trimmed.substring(with: index($0)..<index($0 + 2))
+            return String(trimmed[index($0)..<index($0 + 2)])
         }
         let components = substrings
             .map { Int($0, radix: 16) ?? 0 }

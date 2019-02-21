@@ -1,6 +1,0 @@
-framework module GroupedColorPicker {
-  umbrella header "GroupedColorPicker-umbrella.h"
-
-  export *
-  module * { export * }
-}

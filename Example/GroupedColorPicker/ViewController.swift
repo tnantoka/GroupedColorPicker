@@ -80,7 +80,9 @@ class ViewController: UIViewController {
     @objc func pushInModal(sender: Any?) {
         let pickerController = pickerForModal
 
-        let navController = UINavigationController(rootViewController: UIViewController())
+        let viewController = UIViewController()
+        viewController.view.backgroundColor = .white
+        let navController = UINavigationController(rootViewController: viewController)
         navController.modalPresentationStyle = .formSheet
 
         present(navController, animated: true) {

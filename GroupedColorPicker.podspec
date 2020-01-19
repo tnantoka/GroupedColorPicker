@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'GroupedColorPicker'
-  s.version          = '0.3.5'
+  s.version          = '0.3.6'
   s.summary          = 'Color Picker with Material Design palette.'
 
   s.description      = <<-DESC
@@ -20,5 +20,5 @@ Pod::Spec.new do |s|
     'GroupedColorPicker' => ['GroupedColorPicker/Assets/*']
   }
 
-  s.swift_version = '4.2'
+  s.swift_version = '5.0'
 end
